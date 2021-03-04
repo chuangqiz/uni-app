@@ -1,0 +1,15 @@
+.home_tab {
+  .home_tab_title {
+    position: relative;
+    .title_inner {
+      width: 60%;
+      margin: 0 auto;
+    }
+    .iconfont {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 5%;
+    }
+  }
+}
