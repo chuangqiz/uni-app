@@ -1,0 +1,67 @@
+.recommend_view {
+  height: calc(100vh - 36px);
+}
+
+.recommend_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  .recommend_items {
+      width: 50%;
+      border: 5rpx solid #fff;
+  }
+}
+
+.months_wrap {
+  .months_title {
+    display: flex;
+    padding: 20rpx 30rpx;
+    justify-content: space-between;
+    align-items: center;
+    .months_title_info {
+      display: flex;
+      align-items: center;
+      .months_info {
+        font-weight: 700;
+        color: #e1397c;
+        padding-right: 20rpx;
+        text {
+          font-size: 34rpx;
+        }
+      }
+      .months_text {
+        font-weight: 700;
+      }
+    }
+    .months_title_more {
+      font-size: 20rpx;
+      color: #e1397c;
+    }
+  }
+  .months_content {
+    display: flex;
+    flex-wrap: wrap;
+    .months_item {
+      width: 33.33%;
+      border: 5rpx solid #fff;
+    }
+  }
+}
+
+.hots_wrapper {
+  .hots_title {
+    margin: 20rpx 0;
+    margin-left: 20rpx;
+    padding-left: 20rpx;
+    font-size: 34rpx;
+    font-weight: 700;
+    border-left: 10rpx solid #e1397c;
+  }
+  .hots_content {
+    display: flex;
+    flex-wrap: wrap;
+    .hots_items {
+      width: 33.33%;
+      border: 5rpx solid #fff;
+    }
+  }
+}

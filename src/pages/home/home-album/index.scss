@@ -1,0 +1,20 @@
+.album_swiper {
+  swiper {
+    height: calc( 750rpx / 2.25);
+    image {
+      height: 100%;
+    }
+  }
+}
+.album_list {
+  .album_item {
+    display: flex;
+    justify-content: center;
+    .album_img {
+      flex: 2
+    }
+    .album_info {
+      flex: 3
+    }
+  }
+}
